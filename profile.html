@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Profile | Dr. S. Saravanan</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f4f7fb;
+    color:#333;
+}
+
+/* Header */
+
+.header{
+    background:linear-gradient(135deg,#002147,#004e92);
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.header h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.header p{
+    font-size:18px;
+    opacity:0.9;
+}
+
+/* Container */
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:50px 0;
+}
+
+/* Profile Card */
+
+.profile-card{
+    background:white;
+    border-radius:18px;
+    padding:35px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    margin-bottom:35px;
+}
+
+.profile-card h2{
+    color:#002147;
+    margin-bottom:20px;
+    border-bottom:3px solid #004e92;
+    display:inline-block;
+    padding-bottom:8px;
+}
+
+.info{
+    display:grid;
+    grid-template-columns:250px 1fr;
+    gap:15px;
+    margin-top:20px;
+}
+
+.label{
+    font-weight:600;
+    color:#002147;
+}
+
+.value{
+    color:#444;
+    line-height:1.8;
+}
+
+/* Achievement Cards */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.card h3{
+    color:#002147;
+    margin-bottom:15px;
+}
+
+.card p{
+    line-height:1.8;
+    color:#555;
+}
+
+/* Contact */
+
+.contact{
+    background:linear-gradient(135deg,#002147,#004e92);
+    color:white;
+    border-radius:18px;
+    padding:30px;
+    margin-top:35px;
+}
+
+.contact h2{
+    margin-bottom:20px;
+}
+
+.contact p{
+    line-height:2;
+}
+
+/* Footer */
+
+.footer{
+    background:#002147;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+}
+
+@media(max-width:768px){
+
+.header h1{
+    font-size:30px;
+}
+
+.info{
+    grid-template-columns:1fr;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Dr. S. Saravanan</h1>
+    <p>Head & Assistant Professor of Economics</p>
+</div>
+
+<div class="container">
+
+    <!-- Basic Profile -->
+
+    <div class="profile-card">
+        <h2>Profile Information</h2>
+
+        <div class="info">
+            <div class="label">Name</div>
+            <div class="value">Dr. S. Saravanan</div>
+
+            <div class="label">Designation</div>
+            <div class="value">Head & Assistant Professor of Economics</div>
+
+            <div class="label">NSS Programme Officer</div>
+            <div class="value">October 2022 – June 2025</div>
+
+            <div class="label">NSS Programme Coordinator</div>
+            <div class="value">NSS (Colleges), Puducherry Region<br>Since June 2025 – Till Date</div>
+        </div>
+    </div>
+
+    <!-- Professional Responsibilities -->
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Indian Examiner</h3>
+            <p>
+                Recognized as an Examiner for academic and research
+                evaluation activities, contributing to quality assurance
+                in higher education and research assessment.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Bharathiar University</h3>
+            <p>
+                Served as Examiner for adjudication of Ph.D. theses and
+                conducted Ph.D. Viva-Voce examinations as an External Examiner.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Election Department</h3>
+            <p>
+                Electoral Literacy Club Nodal Officer since October 2022,
+                actively promoting voter awareness and democratic participation
+                among students and the public.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Election Responsibilities</h3>
+            <p>
+                Dedicated AERO for Summary Revision 2023–24 and served as
+                Sectoral Officer during GELS 2024 election-related activities.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Contact -->
+
+    <div class="contact">
+        <h2>Contact Information</h2>
+
+        <p>
+            <strong>Address:</strong><br>
+            No.174, VI Cross, Srinivasa Avenue,<br>
+            Manaveli, Ariyankuppam,<br>
+            Puducherry – 605007
+        </p>
+
+        <p>
+            <strong>Mobile:</strong> 9843829711
+        </p>
+
+        <p>
+            <strong>Email:</strong><br>
+            sukisaravanan860@gmail.com<br>
+            sukisaravanan860@dhtepdy.edu.in
+        </p>
+
+    </div>
+
+</div>
+
+<div class="footer">
+    © 2026 Dr. S. Saravanan | Faculty Profile
+</div>
+
+</body>
+</html>

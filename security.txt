@@ -1,0 +1,7 @@
+Contact: mailto:youremail@example.com
+
+Expires: 2027-12-31T23:59:59Z
+
+Preferred-Languages: en
+
+Canonical: https://dr-s-saravanan.github.io/faculty_profile/security.txt

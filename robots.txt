@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dr-s-saravanan.github.io/faculty_profile/sitemap.xml

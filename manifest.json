@@ -1,0 +1,21 @@
+{
+  "name": "Dr. S. Saravanan Faculty Profile",
+  "short_name": "Dr. Saravanan",
+  "start_url": "/faculty_profile/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#002147",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "img/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
